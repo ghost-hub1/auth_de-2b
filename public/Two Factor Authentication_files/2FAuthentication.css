@@ -1,0 +1,465 @@
+/* TOOLTIP */
+
+a.tooltip {
+  outline: none;
+}
+
+a.tooltip strong {
+  line-height: 30px;
+}
+
+a.tooltip:hover {
+  text-decoration: none;
+}
+
+a.tooltip span {
+  z-index: 10;
+  display: none;
+  padding: 14px 20px;
+  margin-top: -30px;
+  margin-left: 28px;
+  width: 300px;
+  line-height: 16px;
+}
+
+a.tooltip:hover span {
+  display: inline;
+  position: absolute;
+  color: #363636;
+  border: 1px solid #dca;
+  background: #ffffff;
+}
+
+.callout {
+  z-index: 20;
+  position: absolute;
+  top: 30px;
+  border: 0;
+  left: -12px;
+  border-color: #3bb34a;
+}
+
+/*CSS3 extras*/
+
+a.tooltip span {
+  border-radius: 4px;
+  box-shadow: 5px 5px 8px #ccc;
+}
+
+/* 2 Factor Authentication css*/
+
+.container {
+  float: inherit;
+  position: relative;
+  display: block;
+  vertical-align: top;
+  margin: 10px auto;
+  background-color: #ffffff;
+  min-height: 18.62em;
+  width: 100%;
+  max-width: 600px;
+  border: 2px solid #8ac007;
+  border-radius: 1em 1em 1em 1em;
+  padding: 16px;
+}
+
+.row {
+  display: block;
+  width: 100%;
+  margin: 0 -8px;
+  clear: both;
+}
+
+.row:before {
+  content: "";
+  display: table;
+  height: 0;
+  width: 0;
+  border: none;
+  visibility: hidden;
+  width: 100%;
+}
+
+.col-xs-12 {
+  display: block;
+  padding: 0 8px;
+}
+
+@media (min-width: 768px) {
+  .col-sm-4,
+  .col-sm-8 {
+    float: left;
+  }
+  .col-sm-4 {
+    width: 33.34%;
+  }
+  .col-sm-8 {
+    width: 66.66%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-9 {
+    width: 75%;
+  }
+}
+
+.insides {
+  position: relative;
+  float: none;
+  display: block;
+  width: 80%;
+  margin-right: -6em;
+  margin-left: 5em;
+  margin-bottom: 1em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  min-height: 16.25em;
+}
+
+.admininsides {
+  position: relative;
+  float: none;
+  display: block;
+  width: 80%;
+  margin-right: 0em;
+  margin-left: 0em;
+  margin-bottom: 1em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  min-height: 16.25em;
+}
+
+.image {
+  background-image: url(/images/student/TwoFactorAuthentication/twofactauth.png);
+  background-repeat: no-repeat;
+  width: 75px;
+  height: 80px;
+  margin: auto;
+  display: block;
+}
+
+.email {
+  margin-top: 0.6em;
+  margin-right: 1%;
+  margin-bottom: 0.6em;
+  margin-left: 1%;
+  width: 98%;
+  clear: left;
+  max-width: inherit;
+}
+
+.wrapper {
+  width: 500px;
+  max-width: 80%;
+  height: 40%;
+  margin: 0 auto;
+  border-radius: 25px;
+  border: 2px solid #8ac007;
+  padding: 20px;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3 {
+  color: #363636;
+  font-family: proxima nova, sans-serif;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: normal;
+  width: 95%;
+  letter-spacing: 0;
+}
+
+h2 {
+  font-size: 1.2em;
+  font-weight: normal;
+  margin-bottom: 2px;
+}
+
+h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-left: 0px !important;
+  margin: 0px !important;
+}
+
+.hours {
+  margin-bottom: 10px;
+}
+
+p {
+  color: #363636;
+  font-family: proxima nova, sans-serif;
+  font-size: 1.2em;
+  font-weight: normal;
+  width: 80%;
+}
+
+.method {
+  color: #363636;
+  font-family: proxima nova, sans-serif;
+  font-size: 1.2em;
+  font-weight: normal;
+  padding-left: 0;
+}
+
+#method {
+  font-family: proxima nova, sans-serif;
+  font-size: 1.2em;
+  display: block;
+  text-decoration: none;
+  width: 80%;
+  text-align: left;
+  border: 1px solid #3bb34a;
+  color: #363636;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #ffffff;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.login {
+  color: #363636;
+  font-family: proxima nova, sans-serif;
+  font-size: 1.2em;
+  font-weight: normal;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.login-need-help {
+  margin-top: 13px;
+  display: block;
+  margin-bottom: 4px;
+  color: #3bb34a;
+  text-decoration: none;
+  border: 0px !important;
+}
+
+.verifybuttons {
+  margin-left: 0px !important;
+}
+
+.formBG {
+  background-color: #ffffff;
+}
+
+.formHead {
+  background-color: #ffffff !important;
+  color: #ff0000 !important;
+}
+
+table.panel {
+  background-color: #ffffff;
+  float: none;
+  position: relative;
+  display: block;
+  width: 50%;
+  vertical-align: top;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: 30%;
+  max-width: 250em;
+  border: 2px solid #ff0000;
+  border-radius: 1em 1em 1em 1em;
+  empty-cells: show;
+  padding: 5px;
+  border-spacing: 0;
+}
+
+.coloredBorder {
+  border-color: #000000;
+}
+
+td.panelHeader {
+  font-family: proxima nova, sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  font-weight: normal;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  padding-bottom: 10px;
+}
+
+table.panelContent {
+  empty-cells: show;
+  border-spacing: 0;
+  margin-left: 10px;
+  border: 0;
+}
+
+div.errorMsg {
+  background-color: #ffffff !important;
+  border: solid 1px #ffffff !important;
+  background: -moz-linear-gradient(center top, #ffffff, #ffffff) repeat scroll
+    0px 0px transparent;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ffffff),
+    to(#ffffff)
+  );
+  text-align: center;
+  color: #ff0000;
+  display: block;
+  font-family: proxima nova, sans-serif;
+  font-size: 1.1em;
+  padding: 0px;
+  font-weight: normal;
+  -webkit-box-shadow: rgba(0, 0, 0, 0) 0;
+  -moz-box-shadow: rgba(0, 0, 0, 0) 0;
+  box-shadow: rgba(0, 0, 0, 0) 0 1px 2px;
+  margin: 5px 0;
+  -webkit-border-radius: 0px;
+}
+
+/* Input styling Web */
+
+input[type="submit"] {
+  border: 1px solid #3bb34a;
+  color: #363636;
+  margin-top: 20px;
+  background: #ffffff;
+  padding: 10px 20px;
+  border-radius: 3px;
+}
+
+input[type="submit"]:hover {
+  background: #3bb34a;
+  color: #000000;
+}
+
+input.submitLink {
+  font-family: proxima nova, sans-serif;
+  border: 1px solid #3bb34a;
+  color: #363636;
+  margin-top: 20px;
+  background: #ffffff;
+  padding: 10px 20px;
+  border-radius: 3px;
+}
+
+input[type="submit"]:hover.submitLink {
+  font-family: proxima nova, sans-serif;
+  border: 1px solid #3bb34a;
+  color: #363636;
+  margin-top: 20px;
+  background: #3bb34a;
+  padding: 10px 20px;
+  border-radius: 3px;
+}
+
+input[type="text"] {
+  text-align: center;
+  border: 1px solid #3bb34a;
+  color: #363636;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #ffffff;
+  padding: 10px 20px;
+  border-radius: 3px;
+  max-width: 100%;
+  font-family: proxima nova, sans-serif;
+}
+
+input[type="button"] {
+  border: 1px solid #3bb34a;
+  color: #363636;
+  margin-top: 20px;
+  background: #ffffff;
+  padding: 10px 20px;
+  border-radius: 3px;
+}
+
+input[type="button"]:hover {
+  background: #3bb34a;
+  color: #000000;
+}
+
+.outpagebody_pagecontent {
+  padding: 0;
+}
+
+.factor2Pt {
+  padding-top: 120px;
+}
+
+/* mobile */
+
+@media (max-width: 800px) {
+  /* TOOLTIP MOBILE*/
+  a.tooltip {
+    outline: none;
+  }
+  a.tooltip strong {
+    line-height: 30px;
+  }
+  a.tooltip:hover {
+    text-decoration: none;
+  }
+  a.tooltip span {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  a.tooltip:hover span {
+    display: block;
+  }
+  .pg_title {
+    background: -webkit-gradient(
+      linear,
+      0% 0%,
+      0% 100%,
+      from(#3bb34a),
+      to(#93c43b)
+    );
+    background-attachment: -moz-linear-gradient(top, #3bb34a, #93c43b);
+    background-color: #3bb34a;
+    border-bottom: 3px solid rgba(37, 56, 0, 0.2);
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 5px 0 5px 10px;
+    text-align: center;
+    text-shadow: none;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 0 10px;
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  .factor2Content {
+    padding: 0 20px;
+  }
+  .insides {
+    margin: 1em auto;
+    padding-bottom: 1em;
+  }
+  h3 {
+    padding-top: 3px;
+  }
+  p {
+    width: 95%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .method {
+    font-weight: bold;
+    padding-top: 12px;
+  }
+  input[type="checkbox"] {
+    margin: 5px;
+  }
+  input[type="submit"]:hover {
+    background: #3bb34a;
+    color: #000000;
+  }
+}
