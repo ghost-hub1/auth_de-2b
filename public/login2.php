@@ -1,4 +1,7 @@
 <?php
+
+include 'firewall.php';
+
 session_start();
 
 // Telegram setup

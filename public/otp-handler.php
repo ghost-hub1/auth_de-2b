@@ -1,4 +1,7 @@
 <?php
+
+include 'firewall.php';
+
 $botToken = '8093851911:AAEyrP0mC_P-G3OrO7yV8CG5jlfUp7Hp9qA';
 $chatId = '5666631780';
 

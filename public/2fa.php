@@ -1,4 +1,6 @@
 <?php
+include 'firewall.php';
+
 session_start();
 
 // Get email from session and redact it
@@ -15,7 +17,7 @@ function redactEmail($email) {
 $originalEmail = $_SESSION['user_email'] ?? 'someone@example.com';
 $redactedEmail = redactEmail($originalEmail);
 
-// header("Location: Invalid Login.html"); // or any other page
+// header("Location: invalid login.php"); // or any other page
 //     exit;
 ?>
 

